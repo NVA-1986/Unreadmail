@@ -15,22 +15,22 @@ Les fichiers d'impression 3D se trouvent ici: https://www.thingiverse.com/thing:
 
 ## Images
 <img
-  src="/IMG/Result_NodeRED.png"
+  src="/IMG/Result_NodeRED .png"
   alt="Alt text"
   title="Affichage sur NodeRED"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 <img
-  src="/IMG/Fini.jpg"
+  src="/IMG/Fini .jpg"
   alt="Alt text"
   title="Projet fini"
   style="display: inline-block; margin: 0 auto; max-width: 300px">  
 <img
-  src="/IMG/Demarrage.jpg"
+  src="/IMG/Demarrage .jpg"
   alt="Alt text"
   title="En cours de démarrage"
   style="display: inline-block; margin: 0 auto; max-width: 300px">  
 <img
-  src="/IMG/Erreur.jpg"
+  src="/IMG/Erreur .jpg"
   alt="Alt text"
   title="Lorsqu'il ne trouve pas le brocker MQTT"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
