@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plott Informatique</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1' charset='UTF-8' />
+  <link rel="stylesheet" type="text/css" href="w3.css">
+</head>
+<body class="w3-animate-opacity">
+
+  <div class="w3-card w3-blue w3-padding-small w3-center">
+    <h1>Plott Informatique</h1>
+  </div>
+
+  <div class=" w3-center w3-padding-24">
+    <!-- <h3 class="w3-padding">Nombre de mails non lu</h3> -->
+    <p class="w3-xxlarge"><span id="input2-value">0|0</span></p></br></br>
+  </div>
+  <div class=" w3-center w3-padding-24">
+    <img src="logo.png" alt="Logo" style="width:20%;height:20%;">
+  </div>   
+  <script>
+    // Utilisez une requête AJAX pour récupérer la valeur de input2
+    setInterval(function getData()
+{
+    var xhttp = new XMLHttpRequest();
+
+    xhttp.onreadystatechange = function()
+    {
+        if(this.readyState == 4 && this.status == 200)
+        {
+            document.getElementById("input2-value").innerHTML = this.responseText;
+        }
+    };
+
+    xhttp.open("GET", "input2-value", true);
+    xhttp.send();
+}, 2000);
+  </script>
+</body>
+<footer>
+  <div id="footer" class="w3-card w3-blue w3-padding-small w3-center">
+    <i><a href="https://github.com/NVA-1986/Unreadmail" style="text-decoration: none;">Github du projet</a></i>
+  </div>
+</footer>
+</html>
